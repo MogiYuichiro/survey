@@ -24,7 +24,7 @@
         
 
 
-
+			//繰り返しをしている
 			while(1) //←無限ループ
 			{
 			$rec = $stmt -> fetch(PDO::FETCH_ASSOC); //←順番に1レコード取り出す命令
